@@ -84,7 +84,7 @@ const App = () => {
                         className="text-xl border-b
           p-1 border-gray-200 font-semibold uppercase flex-1"
                     />
-                    <button onClick={fetchWeather}>
+                    <button className="mx-2" onClick={fetchWeather}>
                         <img
                             src="https://cdn-icons-png.flaticon.com/512/758/758651.png"
                             alt="..."
